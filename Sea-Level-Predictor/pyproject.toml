@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "repl-nix-sea-level-predictor"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "repl_nix_sea_level_predictor"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "2.1.0"
+numpy = "1.25.2"
+matplotlib = "3.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
